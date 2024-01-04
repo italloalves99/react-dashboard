@@ -9,6 +9,7 @@ const Sidebar = () => {
   const [activeLinkIdx] = useState(1);
   const [sidebarClass, setSidebarClass] = useState("");
   const { isSidebarOpen } = useContext(SidebarContext);
+  console.log(isSidebarOpen);
 
   useEffect(() => {
     if(isSidebarOpen){
