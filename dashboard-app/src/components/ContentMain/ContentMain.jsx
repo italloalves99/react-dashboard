@@ -1,4 +1,5 @@
 import Cards from "../Cards/Cards";
+import Report from "../Report/Report";
 import Transactions from "../Transactions/Transactions";
 import "./ContentMain.css";
 
@@ -9,6 +10,7 @@ const ContentMain = () => {
       <div className="content-grid-one">
         <Cards />
         <Transactions />
+        <Report />
       </div>
     </div>
   )
